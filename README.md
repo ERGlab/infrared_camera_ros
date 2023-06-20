@@ -1,2 +1,2 @@
 # infrared_camera_ros
-海康机器人工业相机gige接口ros驱动
+海康机器人红外相机gige接口ros驱动
