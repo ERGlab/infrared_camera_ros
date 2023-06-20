@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="hikrobot_infrared_camera" type="infrared" name="infrared" respawn="true" output="screen" /> 
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find hikrobot_infrared_camera)/rviz_config/infrared.rviz" />
+</launch>
